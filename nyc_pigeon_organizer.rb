@@ -5,7 +5,6 @@ def nyc_pigeon_organizer(data)
   data.each do |key1, hash|
     hash.each do |key2, value|
       value.each do |names|
-        #binding.pry
         if !new_dict.has_key?(names)
           new_dict[names] = {}
         end
@@ -18,6 +17,5 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-  puts new_dict
   return new_dict
 end
