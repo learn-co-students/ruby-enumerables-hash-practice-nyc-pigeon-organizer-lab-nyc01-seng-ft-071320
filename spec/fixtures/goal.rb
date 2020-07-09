@@ -34,4 +34,3 @@
     :gender => ["male"],
     :lives => ["Central Park"]
   }
-}
